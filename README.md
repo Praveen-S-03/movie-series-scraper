@@ -36,10 +36,13 @@ The data is cleaned, structured, and exported into **CSV files** for further ana
 ---
 
 ## 📂 Project Structure
+```
 ├── movies.csv # Top 100 Movies dataset
 ├── series.csv # Top 50 TV Series dataset
 ├── scraper.py # Combined Python script
 └── README.md # Project documentation
+
+```
 ---
 
 ## 🚀 How to Run
@@ -49,18 +52,15 @@ The data is cleaned, structured, and exported into **CSV files** for further ana
    cd movie-series-scraper
 Install required dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the scraper:
+```bash
 
-bash
-Copy code
+pip install -r requirements.txt
+
+```
+## Run the scraper:
 python scraper.py
 Output CSV files will be generated in the project folder:
-
 movies.csv
-
 series.csv
 
 📊 Sample Output
@@ -78,14 +78,14 @@ Game of Thrones	(2011–2019)	9.2	2,000,000
 Breaking Bad	(2008–2013)	9.5	1,800,000
 ...	...	...	...
 
-🌟 Future Improvements
+## 🌟 Future Improvements
 Add genres, runtime, and directors to the datasets.
 
 Perform data analysis & visualization (e.g., rating distributions, vote trends).
 
 Deploy as a data pipeline or API for real-time scraping.
 
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute this project for educational or commercial purposes.
 
